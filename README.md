@@ -1,6 +1,8 @@
 # PRTG-SSH-scripts
 SSH Scripts for use in PRTG
 
+Place scripts under /var/prtg/scripts on your system and make PRTG able to login via SSH.
+
 To extend functionality to offical unsupported systems like Illumos Systems:
 
 **ZFSPoolSize.sh:**  
