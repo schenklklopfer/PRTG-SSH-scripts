@@ -11,5 +11,7 @@ To extend functionality to offical unsupported systems like Illumos Systems:
 
 ---
 
+For Folding @ Home:
+
 **PRTG-fah-users.sh:**  
 - Input: list of Usernames of Folding @ Home Users
