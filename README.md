@@ -10,3 +10,6 @@ To extend functionality to offical unsupported systems like Illumos Systems:
 - Output: Integer between 0 and 100, percentage of capacity used in zpool
 
 ---
+
+**PRTG-fah-users.sh:**  
+- Input: list of Usernames of Folding @ Home Users
