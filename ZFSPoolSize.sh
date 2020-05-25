@@ -15,9 +15,9 @@ poolName="$1"
 #so output from zpool list will be changed, so we need to take care of this.
 
 if [ -z "`zpool list | head -n 1 | grep CKPOINT`" ]; then
-        output=`/usr/bin/pfexec /usr/sbin/zpool list $poolName | tail -n 1 | awk '{print $7}' | cut -d'%' -f1`
+        output=`zpool list $poolName | tail -n 1 | awk '{print $7}' | cut -d'%' -f1`
 else
-        output=`/usr/bin/pfexec /usr/sbin/zpool list $poolName | tail -n 1 | awk '{print $8}' | cut -d'%' -f1`
+        output=`zpool list $poolName | tail -n 1 | awk '{print $8}' | cut -d'%' -f1`
 fi
 
 #Output in PRTG format
