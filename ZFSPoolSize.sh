@@ -8,7 +8,7 @@
 #
 ###########################
 
-##eed the poolname as parameter
+#need the poolname as parameter
 poolName="$1"
 
 #since new versions of zpools, beginning summer 2018, there is a feature called checkpoints.
