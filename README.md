@@ -14,7 +14,7 @@ To extend functionality to offical unsupported zFS systems like Illumos Systems,
 For Folding @ Home:
 
 **PRTG-fah-users.sh:**  
-- Input: list of Usernames of Folding @ Home Users
+- Input: list of Usernames of Folding@Home Users
 
 **PRTG-fah-group.sh:**  
 - Input: ID + Name of Folding@Home Group
