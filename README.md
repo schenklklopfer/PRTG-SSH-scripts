@@ -15,3 +15,6 @@ For Folding @ Home:
 
 **PRTG-fah-users.sh:**  
 - Input: list of Usernames of Folding @ Home Users
+
+**PRTG-fah-group.sh:**  
+- Input: ID + Name of Folding@Home Group
