@@ -3,7 +3,7 @@ SSH Scripts for use in PRTG
 
 Place scripts under /var/prtg/scripts or /var/prtg/scriptsxml on your system and make PRTG able to login via SSH.
 
-To extend functionality to offical unsupported systems like Illumos Systems:
+To extend functionality to offical unsupported zFS systems like Illumos Systems, Ubuntu, Debian:
 
 **ZFSPoolSize.sh:**  
 - Input: Name of zpool you want to monitor  
