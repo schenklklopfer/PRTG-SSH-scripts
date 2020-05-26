@@ -20,9 +20,7 @@ for MEMBER in $(cat $DATA | grep "\"name\": \"" | grep -v $TEAM_NAME | awk '{pri
         echo "  <channel>$MEMBER</channel>"
         echo "  <VolumeSize>Credits</VolumeSize>"
 
-        #WUS=$(cat $DATA | grep -B 2 -A 3 $MEMBER | head -6 | grep "\"wus\":" | awk '{print $2}')
         CREDIT=$(cat $DATA | grep -B 2 -A 3 $MEMBER | head -6 | grep "\"credit\":" | awk '{print $2}')
-        #echo "Member: "$MEMBER" has "${CREDIT::-1}" points done with "$WUS" WUs."
 
         echo "   <value>"${CREDIT::-1}"</value>"
         echo " </result>"
