@@ -3,6 +3,11 @@
 #       Manuel Wolff - 2020
 #
 
+if [ -z $1 ]; then
+        echo "ERROR: No parameters given"
+        exit 1
+fi
+
 USERS=$@
 echo "<prtg>"
 for USER in $USERS; do
